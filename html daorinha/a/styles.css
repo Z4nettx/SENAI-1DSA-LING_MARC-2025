@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #1d1da7;
+    --black: #000000;
+    --white: #ffffff;
+    --lightblue: #4545ff;
+}
+
+body{
+    background-color: var(--black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    background-color: var(--lightblue);
+    height: 25vh;
+    width: 25vw;
+    border-radius: 30px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dia dos Namorados </title>
+	<style>
+
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+		
+	body {
+			background-image: url(background.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			width: 100vw;
+			height:  100vh;
+			z-index: 1;
+			display: flex;
+}
+	
+	.valentines {
+		align-self: center;
+		position: relative;
+		left: 5%;
+		border-radius: 20px;
+		z-index: 1;
+}
+	h1 {
+		position: relative;
+		top: 10%;
+		color: #ffff;
+}
+	p {
+		position: relative;
+		top: 13%;
+		color: #ffff;
+		font-weight: 700;
+		line-break: strict;
+		text-align: justify;
+		z-index: 1;
+		text-shadow: #000 1px 0 50px;
+		
+}
+	.texto {
+		width: 30vw;
+		left: 20%;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		
+}
+	button {
+		border-radius: 50px;
+		border: 5px solid #ff0000;
+		width: 10vw;
+		height: 8vh;
+		font-size: large;
+		font-weight: bold;
+		color: #ffff;
+		background-color: transparent;
+		position: absolute;
+		align-self: center;
+		top: 30%;
+		cursor: pointer;
+}
+	.coracoes {
+		left: 60%;
+		position: absolute;
+		z-index: 0;
+		top: 5%;
+}
+	.coracoes2 {
+		right: 130%;
+		position: absolute;
+		z-index: 0;
+		top: 	0%;
+}
+	</style>
+</head>
+  <body style="background-color: #f2f2f2";>
+	<img class="valentines" src="valentines.webp" alt="Valentines">
+	<div class="texto">
+	<h1 style="font-family: Arial";> Feliz dia dos Namorados!! </h1>
+	<p style="font-family: Arial";> Hoje é dia dos namorados, mas nosso dia é todo dia. Agradeço a Deus por partilhar minha vida todos os dias contigo. Minha amiga, parceira e companheira para sempre. Muito obrigado por todos os nossos momentos, eu te amo meu amor!</p>
+
+	<button onclick="document.getElementById('meuAudio').play()">Clique aqui!</button>
+	<audio autoplay id="meuAudio">
+	<source src="alma.mp3" type="audio/mp3">
+</audio>
+	<img class="coracoes" src="coracoes.png" alt="coracoes">
+	<img class="coracoes2" src="coracoes.png" alt="coracoes">
+</div	>
+</body>
+</html> 	
