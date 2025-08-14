@@ -1,1 +1,0 @@
-Prototipagem de Tipografia e Cores baseada na logo do Itaú, com objetivo em aprender a fazer guia de cores e tipografia para futuros projetos.
