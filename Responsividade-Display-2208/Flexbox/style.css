@@ -1,0 +1,25 @@
+#principal {
+    background: burlywood;
+    height: 500px;
+    display: flex; /*  para definir o container como flexível */
+
+    /* quebra de linha do container */
+    flex-direction: column;
+
+    /* quebra dos itens do container */
+    flex-wrap: nowrap;
+
+    /* distribuição horizontal dos itens do container */
+    justify-content: flex-start;
+
+    /* distribuição vertical dos itens do container */
+    align-items: center;
+}
+
+.item {
+    width: 100px;
+    color: black;
+    background: whitesmoke;
+    margin: 5px;
+    padding: 1%;
+}
