@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 20vh;
+    text-align: center;
+    color: red;
+}
+body {
+    background: linear-gradient(to bottom right,lightgreen,  white, lightgreen);
+}
+ul {
+    padding: 2% 2%;
+}

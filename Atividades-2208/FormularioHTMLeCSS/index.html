@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de interação</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="namebox">Digite seu nome aqui</label>
+            <input type="text" name="namebox" id="namebox" placeholder="Digite aqui">
+            <br>
+            <br>
+            <label for="endbox">Digite aqui</label>
+            <input type="text" name="endbox" id="endbox" value="Rua e nr">
+            <br>
+            <br>
+            <label for="bairrobox">Digite o bairro</label>
+            <input type="text" name="bairrobox" id="bairrobox" value="Bairro">
+            <br>
+            <br>
+            <label for="citybox">Digite a cidade</label>
+            <input type="text" name="citybox" id="citybox" value="Santo André">
+            <br>
+            <br>
+            <label for="msgbox">Entre aqui com a sua mensagem</label>
+            <br>
+            <textarea name="msgbox" id="msgbox" cols="30" rows="10" placeholder="Máximo de 500 caracteres"
+                maxlength="500"></textarea>
+
+            <br>
+            <span>Escolha o(s) modelo(s) de trabalho:</span>
+            <ul>
+                <li>
+                    <label for="check1">Presencial</label>
+                    <input type="checkbox" name="check1" id="check1">
+                </li>
+                <li>
+                    <label for="check2">Remoto</label>
+                    <input type="checkbox" name="check2" id="check2">
+                </li>
+                <li>
+                    <label for="check3">Híbrido</label>
+                    <input type="checkbox" name="check3" id="check3">
+                </li>
+            </ul>
+            <span>Escolha o período de trabalho</span>
+            <ul>
+                <li>
+                    <label for="rad1">Manhã</label>
+                    <input type="radio" name="rad1" id="rad1">
+                </li>
+                <li>
+                    <label for="rad2">Tarde</label>
+                    <input type="radio" name="rad2" id="rad2">
+                </li>
+                <li>
+                    <label for="rad3">Noite</label>
+                    <input type="radio" name="rad3" id="rad3">
+                </li>
+            </ul>
+            <span>Escolha um Estado:</span>
+            <br>
+            <select name="Estado" id="Estado">
+                <option value="">Selecione um Estado</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="sp">São Paulo</option>
+                <option value="es">Espírito Santo</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="bh">Bahia</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" name="checktermos" id="checktermos">
+            <label for="checktermos">Aceita os termos de uso do site</label>
+            <br>
+            <br>
+            <input type="Submit" value="Enviar os dados">
+            <input type="reset" value="Limpar os campos">
+        </form>
+    </main>
+</body>
+
+</html>

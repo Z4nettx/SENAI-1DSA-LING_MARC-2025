@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+caption {
+    border: 1.5px solid #000;
+}
+tr:nth-child(even) {
+    background-color: deepskyblue;
+}
