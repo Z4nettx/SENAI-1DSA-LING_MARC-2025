@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Globobrand';
+    src: url(fonte/GlobobrandRegular.woff);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .2fr .1fr 1fr .2fr;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer"
+    ;
+}
+nav {
+    grid-area: nav;
+    font-family: 'Globobrand';
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 45%;
+    padding: 1%;
+    text-align: left;
+    height: 7vh;
+}
+nav div:nth-child(1) {
+    display: flex;
+    gap: 5%;
+    text-wrap: nowrap;
+}
+nav div:nth-child(2) {
+    display: flex;
+    gap: 6%;
+    text-wrap: nowrap;
+}
+nav span:nth-child(1) {color: cornflowerblue;}
+nav span:nth-child(2) {color: #C4170C;}
+nav span:nth-child(3) {color: #06AA48;}
+nav span:nth-child(4) {color: orange;}
+nav span:nth-child(5) {color: orangered;}
+nav span:nth-child(6) {color: #C4170C;}
+nav span:nth-child(7) {color: darkslateblue;}
+nav span:nth-child(8) {color: cadetblue;}
+
+header {
+    grid-area: header;
+    background: #C4170C;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    padding: 2%;
+}
+header div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+header i {
+    font-size: 2em;
+}
+header div:nth-child(2) {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    transform: scale(6);
+}
+header div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 20%;
+    height: 100%;
+    justify-content: start;
+    border-radius: 5px;
+    padding: 1.5% 0;
+}
+header div:nth-child(3) i {
+    font-size: 1.2em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+section:nth-child(1) {
+    grid-area: section1;
+    display: flex;
+    margin: 1% 0;
+    justify-content: center;
+    width: 100%;
+}
+section:nth-child(1) img {
+    width: 60%;
+}
+section:nth-child(2) {
+    grid-area: section2;
+}
