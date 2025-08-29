@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {background-color: #aaa;}
+
+header {
+    height: 15vh;
+    width: 100%;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85vh;
+
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 55vh;
+    width: 30vw;
+}
+
+.square{
+    width: 33%;
+    height: 33%;
+}
+
+select{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    appearance: none;
+    background-color: white;
+}
+
+input[type=reset] {
+    align-self: center;
+    margin-right: 1.7%;
+    width: 11%;
+    height: 8%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
