@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font: lighter 1rem 'arial';
+}
+
+header {
+    background: rgba(0, 0, 0, 0.70);
+    height: 15vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1%;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img {
+    width: 20%;
+}
+
+nav {
+    align-content: center;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    width: 10%;
+    gap: 5rem;
+    text-wrap: nowrap;
+    align-items: center;
+    height: 100%;
+}
+
+header li:nth-child(4) {
+    background-color: red;
+    border-radius: 10px;
+    align-content: center;
+    padding: 2% 20%;
+    height: 50%;
+    width: 14vw;
+    cursor: pointer;
+}
+
+section:nth-child(1) {
+    background: url(assets/destaque.jpg) center center / cover;
+    height: 75vh;
+}
+
+.aprendizagem {
+    background-color: rgba(255, 255, 255, 0.70);
+    display: flex;
+    height: 32vh;
+    margin: 2%;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 25vw;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.aprendizagem span {
+    color: red;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.aprendizagem input {
+    width: 50%;
+    height: 8vh;
+    border-radius: 10px;
+    border: 0px transparent;
+    background-color: red;
+    color: #fff;
+    align-self: center;
+}
+
+h2 {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 2% 3%;
+    width: 100%;
+}
+
+#sec2 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.whatsapp {
+    position: fixed;
+    background-color: rgb(189, 248, 189);
+    border-radius: 50%;
+    bottom: 110px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp a {
+    font-size: 5rem;
+    text-shadow: 0px 0px 10px white;
+    color: lime;
+}
+footer {
+    background: rgba(0, 0, 0, 0.70);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 20vh;
+    color: #fff;
+}
+footer img {
+    width: 15%;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+    }
+    header ul {
+        height: 20vh;
+    }
+}
